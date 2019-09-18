@@ -1,0 +1,9 @@
+org_name = "samjs"
+version = "0.1.0"
+lockfile_version = "1.0.0"
+ballerina_version = "1.0.0"
+
+[[imports."samjs/jregex:0.1.0"]]
+org_name = "ballerinax"
+name = "java"
+version = "0.0.0"

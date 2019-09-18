@@ -1,0 +1,7 @@
+[project]
+org-name= "samjs"
+version= "0.1.0"
+authors = ["samj"]
+repository = "https://github.com/sameerajayasoma/jregex"
+keywords = ["java", "regex", "regexp"]
+license = ["Apache-2.0"]
