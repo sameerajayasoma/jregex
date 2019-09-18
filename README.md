@@ -29,7 +29,14 @@ import sams/jregex;
 import ballerina/io;
 
 public function main() {
-    // TODO
+    string input = "Jack and Jill went up the hill. To fetch a pail of water. " + 
+            "Jack fell down and broke his crown, and Jill came tumbling after.";
+    var p = jregex:compile(regex = "Jack");
+    var m = p.matcher(input);
+    while m.find() {
+        var output = string `Group: ${m.findGroup()}, start: ${m.startIndex()}, end: ${m.endIndex()}`;
+        io:println(output);
+    }
 }
 ```
 
