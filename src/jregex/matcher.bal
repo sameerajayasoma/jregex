@@ -1,4 +1,4 @@
-import ballerinax/java;
+import ballerina/java;
 
 # An engine that performs match operations on a string by interpreting a Pattern.
 public type Matcher object {

@@ -1,4 +1,4 @@
-import ballerinax/java;
+import ballerina/java;
 
 # A compiled representation of a regular expression.
 # 
